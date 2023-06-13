@@ -99,8 +99,7 @@ class Rossmann( object ):
         fall = range(266, 355)
         df2['season'] = df2['date'].apply(lambda x: 'spring' if x.timetuple().tm_yday in spring else 'summer' if x.timetuple().tm_yday in summer else 'fall' if x.timetuple().tm_yday in fall else 'winter' )
         
-        ## 5.0 Filtragem de Variáveis 
-        #Filtrando linhas onde a loja está fechada e também onde as vendas foram 0
+        ## 5.0 Filtragem de Variáveis Filtrando linhas onde a loja está fechada e também onde as vendas foram 0
         df2 = df2[(df2['open'] != 0)]
         
         #Filtrando colunas que não teremos no momento da previsão ou que foram colunas auxiliares na criação de váriaveis
