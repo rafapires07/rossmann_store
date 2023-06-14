@@ -1,7 +1,7 @@
 # PREVISÃO DE VENDAS ROSSMANN 
 
 <div align="center">
-<img src="img/Rossmann.jpg" width="500px">
+<img src="img/rossmann.jpg" width="500px">
 </div>
 </br>
 
@@ -25,7 +25,7 @@ Segue abaixo uma breve ilustração das principais etapas desse processo:
 
 <br>
 <div align="center">
-<img src="img/crisp.png" width="700px">
+<img src="img/crisp.jpg" width="700px">
 </div>
 <br>
 
@@ -266,6 +266,6 @@ Ao final de todo o processo temos o modelo em produção. Você pode acessar o b
 <br>
 
 <div align="center">
-<img src="img/bot_gif.gif" width="250px">
+<img src="img/bot_telegram.gif" width="250px">
 </div>
 </br>
